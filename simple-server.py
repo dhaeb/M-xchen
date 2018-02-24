@@ -32,8 +32,7 @@ class Maexchen:
             return  maex1 == maex2
 
     def maex_to_string(self, maex):
-        return maex[0] + ": " + str(maex[1])
-
+        return str(maex[1])
 
     def get_max(self):
         return self.eval_maexchen(self.wuerfel(), self.wuerfel())
